@@ -3,9 +3,9 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "test@sbjit.com",
-  "address": "Yerla, Nagpur",
+  "name": "John Doe654",
+  "email": "tes23t@sbjit.com",
+  "address": "Yerla, mumbai",
   "dateOfBirth": "2005-07-03",
   "registeredDate": "2026-08-13"
 }
