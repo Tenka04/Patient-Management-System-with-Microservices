@@ -3,8 +3,8 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "neo low",
-  "email": "neo@sbjit.com",
+  "name": "prasant hero",
+  "email": "hero@moto.com",
   "address": "nagpur, india",
   "dateOfBirth": "2001-07-03",
   "registeredDate": "2025-08-17"
