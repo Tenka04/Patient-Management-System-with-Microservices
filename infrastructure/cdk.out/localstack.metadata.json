@@ -112,6 +112,19 @@
       ]
     }
   ],
+  "/localstack/PatientManagementCluster/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientManagementCluster98E10F8D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
   "/localstack/PatientManagementVPC/PublicSubnet1/Subnet": [
     {
       "type": "aws:cdk:logicalId",
@@ -120,7 +133,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -134,7 +147,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -148,7 +161,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -162,7 +175,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:208 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:208 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib, jsii runtime..."
       ]
@@ -202,7 +215,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -216,7 +229,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -230,7 +243,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -244,7 +257,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:208 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:208 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib, jsii runtime..."
       ]
@@ -284,7 +297,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -298,7 +311,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -312,7 +325,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -339,7 +352,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -353,7 +366,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -367,7 +380,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-Ox7Kl0\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -455,6 +468,19 @@
     {
       "type": "aws:cdk:logicalId",
       "data": "localstackPatientServiceDBSecret20E0A9443fdaad7efa858a3daf9490cf0a702aeb"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/PatientManagementCluster/DefaultServiceDiscoveryNamespace/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientManagementClusterDefaultServiceDiscoveryNamespace72C5F264"
     },
     {
       "type": "aws:cdk:creationStack",

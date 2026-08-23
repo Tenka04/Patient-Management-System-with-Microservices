@@ -662,6 +662,18 @@
     "KafkaVersion": "4.0.0",
     "NumberOfBrokerNodes": 1
    }
+  },
+  "PatientManagementCluster98E10F8D": {
+   "Type": "AWS::ECS::Cluster"
+  },
+  "PatientManagementClusterDefaultServiceDiscoveryNamespace72C5F264": {
+   "Type": "AWS::ServiceDiscovery::PrivateDnsNamespace",
+   "Properties": {
+    "Name": "patient-management.local",
+    "Vpc": {
+     "Ref": "PatientManagementVPC522067E7"
+    }
+   }
   }
  }
 }
