@@ -15,9 +15,6 @@ public class AuthIntegrationTest {
 
     @Test
     public void shouldReturnOKWithValidToken() {
-        // 1. Arrange
-        // 2. act
-        // 3. assert
 
         String loginPayLoad = """
                     {
@@ -38,5 +35,25 @@ public class AuthIntegrationTest {
                 .response();
 
         System.out.println("Genrated Token: " + response.jsonPath().getString("token"));
+    }
+
+    @Test
+    public void shouldReturnUnauthorizedOnInvalidLogin() {
+
+        String loginPayLoad = """
+                    {
+                    "email": "invalid@test.com",
+                    "password": "passwordwrong"
+                    }
+                """;
+
+        given()
+                .contentType("application/json")
+                .body(loginPayLoad)
+                .when()
+                .post("/auth/login")
+                .then()
+                .statusCode(401);
+
     }
 }
