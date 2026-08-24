@@ -48,7 +48,7 @@ public class LocalStack extends Stack {
                         "auth-service",
                         List.of(4005),
                         authServiceDb,
-                        Map.of("JWT_SECRET", "***REMOVED***"));
+                        Map.of("JWT_SECRET", "gxwIWkzJjHr4NYgF3P0SQcjXmnYSTdCaU2uK5OYr3IqsXrWKnNjNS6T4Bs6z8ny3hV0NN9Xxv0pSFO6Fjh3UUM"));
 
         authService.getNode().addDependency(authDbHealthCheck);
 

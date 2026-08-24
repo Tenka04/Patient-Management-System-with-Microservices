@@ -706,7 +706,7 @@
        },
        {
         "Name": "JWT_SECRET",
-        "Value": "***REMOVED***"
+        "Value": "gxwIWkzJjHr4NYgF3P0SQcjXmnYSTdCaU2uK5OYr3IqsXrWKnNjNS6T4Bs6z8ny3hV0NN9Xxv0pSFO6Fjh3UUM"
        },
        {
         "Name": "SPRING_DATASOURCE_URL",
