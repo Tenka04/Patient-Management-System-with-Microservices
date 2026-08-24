@@ -47,6 +47,158 @@
       ]
     }
   ],
+  "/localstack/AuthService": [
+    {
+      "type": "aws:cdk:warning",
+      "data": "Enable the 'circuitBreaker' property to trigger a quicker deployment failure if tasks are failing to come start (without this setting deployments may take up to 3 hours to fail). [ack: @aws-cdk/aws-ecs:shouldUseCircuitBreaker]",
+      "trace": [
+        "Annotations.addMessage (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:3506)",
+        "Annotations.addWarningV2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:2194)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:14671)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\no-box-stack-traces.js:1:345)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:7829)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:62551)",
+        "Kernel.create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:53289)",
+        "KernelHost.processRequest (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:228006)",
+        "KernelHost.run (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:226990)",
+        "Immediate._onImmediate (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:227034)",
+        "process.processImmediate (node:internal/timers:534:21)"
+      ]
+    },
+    {
+      "type": "aws:cdk:warning",
+      "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
+      "trace": [
+        "Annotations.addMessage (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:3506)",
+        "Annotations.addWarningV2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:2194)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:16295)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\no-box-stack-traces.js:1:345)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:7829)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:62551)",
+        "Kernel.create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:53289)",
+        "KernelHost.processRequest (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:228006)",
+        "KernelHost.run (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:226990)",
+        "Immediate._onImmediate (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:227034)",
+        "process.processImmediate (node:internal/timers:534:21)"
+      ]
+    }
+  ],
+  "/localstack/BillingService": [
+    {
+      "type": "aws:cdk:warning",
+      "data": "Enable the 'circuitBreaker' property to trigger a quicker deployment failure if tasks are failing to come start (without this setting deployments may take up to 3 hours to fail). [ack: @aws-cdk/aws-ecs:shouldUseCircuitBreaker]",
+      "trace": [
+        "Annotations.addMessage (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:3506)",
+        "Annotations.addWarningV2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:2194)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:14671)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\no-box-stack-traces.js:1:345)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:7829)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:62551)",
+        "Kernel.create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:53289)",
+        "KernelHost.processRequest (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:228006)",
+        "KernelHost.run (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:226990)",
+        "Immediate._onImmediate (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:227034)",
+        "process.processImmediate (node:internal/timers:534:21)"
+      ]
+    },
+    {
+      "type": "aws:cdk:warning",
+      "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
+      "trace": [
+        "Annotations.addMessage (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:3506)",
+        "Annotations.addWarningV2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:2194)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:16295)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\no-box-stack-traces.js:1:345)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:7829)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:62551)",
+        "Kernel.create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:53289)",
+        "KernelHost.processRequest (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:228006)",
+        "KernelHost.run (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:226990)",
+        "Immediate._onImmediate (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:227034)",
+        "process.processImmediate (node:internal/timers:534:21)"
+      ]
+    }
+  ],
+  "/localstack/AnalyticsService": [
+    {
+      "type": "aws:cdk:warning",
+      "data": "Enable the 'circuitBreaker' property to trigger a quicker deployment failure if tasks are failing to come start (without this setting deployments may take up to 3 hours to fail). [ack: @aws-cdk/aws-ecs:shouldUseCircuitBreaker]",
+      "trace": [
+        "Annotations.addMessage (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:3506)",
+        "Annotations.addWarningV2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:2194)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:14671)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\no-box-stack-traces.js:1:345)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:7829)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:62551)",
+        "Kernel.create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:53289)",
+        "KernelHost.processRequest (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:228006)",
+        "KernelHost.run (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:226990)",
+        "Immediate._onImmediate (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:227034)",
+        "process.processImmediate (node:internal/timers:534:21)"
+      ]
+    },
+    {
+      "type": "aws:cdk:warning",
+      "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
+      "trace": [
+        "Annotations.addMessage (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:3506)",
+        "Annotations.addWarningV2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:2194)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:16295)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\no-box-stack-traces.js:1:345)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:7829)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:62551)",
+        "Kernel.create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:53289)",
+        "KernelHost.processRequest (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:228006)",
+        "KernelHost.run (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:226990)",
+        "Immediate._onImmediate (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:227034)",
+        "process.processImmediate (node:internal/timers:534:21)"
+      ]
+    }
+  ],
+  "/localstack/PatientService": [
+    {
+      "type": "aws:cdk:warning",
+      "data": "Enable the 'circuitBreaker' property to trigger a quicker deployment failure if tasks are failing to come start (without this setting deployments may take up to 3 hours to fail). [ack: @aws-cdk/aws-ecs:shouldUseCircuitBreaker]",
+      "trace": [
+        "Annotations.addMessage (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:3506)",
+        "Annotations.addWarningV2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:2194)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:14671)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\no-box-stack-traces.js:1:345)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:7829)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:62551)",
+        "Kernel.create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:53289)",
+        "KernelHost.processRequest (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:228006)",
+        "KernelHost.run (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:226990)",
+        "Immediate._onImmediate (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:227034)",
+        "process.processImmediate (node:internal/timers:534:21)"
+      ]
+    },
+    {
+      "type": "aws:cdk:warning",
+      "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
+      "trace": [
+        "Annotations.addMessage (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:3506)",
+        "Annotations.addWarningV2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:2194)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:16295)",
+        "new BaseService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\no-box-stack-traces.js:1:345)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:7829)",
+        "new FargateService2 (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\core\\lib\\prop-injectable.js:1:855)",
+        "Kernel._Kernel_create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:62551)",
+        "Kernel.create (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:53289)",
+        "KernelHost.processRequest (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:228006)",
+        "KernelHost.run (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:226990)",
+        "Immediate._onImmediate (C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-java-runtime11411377398096256016\\lib\\program.js:1:227034)",
+        "process.processImmediate (node:internal/timers:534:21)"
+      ]
+    }
+  ],
   "/localstack/PatientManagementVPC/Resource": [
     {
       "type": "aws:cdk:logicalId",
@@ -125,6 +277,162 @@
       ]
     }
   ],
+  "/localstack/AuthServiceTask/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthServiceTask82E6680D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AuthServiceLogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthServiceLogGroup34125B38"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AuthService/Service": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthService3C2B741A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/BillingServiceTask/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BillingServiceTask30D9C66E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/BillingServiceLogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BillingServiceLogGroupDD61E740"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/BillingService/Service": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BillingServiceFEB36D90"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AnalyticsServiceTask/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnalyticsServiceTaskC3AFBC47"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AnalyticsServiceLogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnalyticsServiceLogGroupBD82F12A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AnalyticsService/Service": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnalyticsServiceCD38C492"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/PatientServiceTask/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientServiceTaskF865B565"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/PatientServiceLogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientServiceLogGroup4A5C3809"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/PatientService/Service": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientServiceA65AB800"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
   "/localstack/PatientManagementVPC/PublicSubnet1/Subnet": [
     {
       "type": "aws:cdk:logicalId",
@@ -133,7 +441,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -147,7 +455,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -161,7 +469,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -175,7 +483,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:208 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:208 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib, jsii runtime..."
       ]
@@ -215,7 +523,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -229,7 +537,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -243,7 +551,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:268 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -257,7 +565,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:208 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:208 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib, jsii runtime..."
       ]
@@ -297,7 +605,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -311,7 +619,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -325,7 +633,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -352,7 +660,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -366,7 +674,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -380,7 +688,7 @@
     {
       "type": "aws:cdk:creationStack",
       "data": [
-        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-2iOFox\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
+        "...C:\\Users\\sujal\\AppData\\Local\\Temp\\jsii-kernel-0j3trG\\node_modules\\aws-cdk-lib\\aws-ec2\\lib\\vpc.js:1:270 in aws-cdk-lib...",
         "Array.forEach (:)",
         "...aws-cdk-lib..."
       ]
@@ -490,6 +798,162 @@
       ]
     }
   ],
+  "/localstack/AuthServiceTask/TaskRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthServiceTaskTaskRoleE466B974"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AuthServiceTask/ExecutionRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthServiceTaskExecutionRoleA1258495"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AuthService/SecurityGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthServiceSecurityGroup67F2FA7D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/BillingServiceTask/TaskRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BillingServiceTaskTaskRole7A547BBF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/BillingServiceTask/ExecutionRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BillingServiceTaskExecutionRole11FE8DE2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/BillingService/SecurityGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BillingServiceSecurityGroup3783AD35"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AnalyticsServiceTask/TaskRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnalyticsServiceTaskTaskRole1ABB10CB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AnalyticsServiceTask/ExecutionRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnalyticsServiceTaskExecutionRoleBAF654B2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AnalyticsService/SecurityGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnalyticsServiceSecurityGroupBA6AE98A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/PatientServiceTask/TaskRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientServiceTaskTaskRole4FB5B4E2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/PatientServiceTask/ExecutionRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientServiceTaskExecutionRole3782903B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/PatientService/SecurityGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientServiceSecurityGroup547BE1F2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
   "/localstack/AuthServiceDB/Secret/Attachment/Resource": [
     {
       "type": "aws:cdk:logicalId",
@@ -512,6 +976,58 @@
       "type": "aws:cdk:creationStack",
       "data": [
         "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AuthServiceTask/ExecutionRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuthServiceTaskExecutionRoleDefaultPolicyF20AD0D3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/BillingServiceTask/ExecutionRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BillingServiceTaskExecutionRoleDefaultPolicy4F4033C9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/AnalyticsServiceTask/ExecutionRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AnalyticsServiceTaskExecutionRoleDefaultPolicy99868928"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/localstack/PatientServiceTask/ExecutionRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PatientServiceTaskExecutionRoleDefaultPolicy3866E91E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
         "(no user code in 10 frames, use --stack-trace-limit to capture more)"
       ]
     }
